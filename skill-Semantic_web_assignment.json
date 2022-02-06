@@ -1,0 +1,1639 @@
+{
+  "name": "Semantic_web_assignment",
+  "intents": [
+    {
+      "intent": "description",
+      "examples": [
+        {
+          "text": "what does he do"
+        },
+        {
+          "text": "give me a description"
+        },
+        {
+          "text": "give me details about him"
+        },
+        {
+          "text": "give me details about her"
+        },
+        {
+          "text": "give me more details about @sys-person"
+        },
+        {
+          "text": "tell me something about this person"
+        },
+        {
+          "text": "who is she"
+        },
+        {
+          "text": "what does she do"
+        },
+        {
+          "text": "description"
+        },
+        {
+          "text": "who is he"
+        },
+        {
+          "text": "who is @sys-person"
+        },
+        {
+          "text": "tell me about @sys-person"
+        },
+        {
+          "text": "give me a description of @sys-person"
+        },
+        {
+          "text": "details"
+        },
+        {
+          "text": "details about"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "party",
+      "examples": [
+        {
+          "text": "what party is he a part of"
+        },
+        {
+          "text": "which party is she a part of"
+        },
+        {
+          "text": "which party is he a part of"
+        },
+        {
+          "text": "party"
+        },
+        {
+          "text": "political party"
+        },
+        {
+          "text": "what party is she a part of"
+        },
+        {
+          "text": "which party does he belong to"
+        },
+        {
+          "text": "which party does she belong to"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "Age",
+      "examples": [
+        {
+          "text": "what's the birth date of @sys-person"
+        },
+        {
+          "text": "birthdate of @sys-person"
+        },
+        {
+          "text": "birth date of @sys-person"
+        },
+        {
+          "text": "birthday"
+        },
+        {
+          "text": "tell me the birth date of @sys-person"
+        },
+        {
+          "text": "tell me the birthdate of @sys-person"
+        },
+        {
+          "text": "tell me the age of @sys-person"
+        },
+        {
+          "text": "how old is @sys-perspn"
+        },
+        {
+          "text": "what is the birth data of @sys-person"
+        },
+        {
+          "text": "when was @sys-person born"
+        },
+        {
+          "text": "birthdate"
+        },
+        {
+          "text": "when was she born"
+        },
+        {
+          "text": "when was he born"
+        },
+        {
+          "text": "birth date"
+        },
+        {
+          "text": "what's the birthdate of @sys-person"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "education",
+      "examples": [
+        {
+          "text": "qualifications"
+        },
+        {
+          "text": "college"
+        },
+        {
+          "text": "education"
+        },
+        {
+          "text": "graduated from"
+        },
+        {
+          "text": "graduation"
+        },
+        {
+          "text": "give me his graduation details"
+        },
+        {
+          "text": "give me her graduation details"
+        },
+        {
+          "text": "which university did he go to"
+        },
+        {
+          "text": "which university did she go to"
+        },
+        {
+          "text": "where did he graduate from"
+        },
+        {
+          "text": "where did she graduate from"
+        },
+        {
+          "text": "where did @sys-person graduate from"
+        },
+        {
+          "text": "give me @sys-person's graduation details"
+        },
+        {
+          "text": "university"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "Welcome",
+      "examples": []
+    },
+    {
+      "intent": "spouse",
+      "examples": [
+        {
+          "text": "who is @sys-person's wife"
+        },
+        {
+          "text": "what is @sys-person's marital status?"
+        },
+        {
+          "text": "who is @sys-person's husband?"
+        },
+        {
+          "text": "who's @sys-person's  partner?"
+        },
+        {
+          "text": "who's his wife"
+        },
+        {
+          "text": "who's her husband"
+        },
+        {
+          "text": "who is @sys-person married to"
+        },
+        {
+          "text": "who is he married to"
+        },
+        {
+          "text": "is he married"
+        },
+        {
+          "text": "is she married"
+        },
+        {
+          "text": "life partner"
+        },
+        {
+          "text": "spouse"
+        },
+        {
+          "text": "who is she married to"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You're too stupid"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "You've been so helpful :)"
+        },
+        {
+          "text": "Brilliant!"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "networth",
+      "examples": [
+        {
+          "text": "salary"
+        },
+        {
+          "text": "money"
+        },
+        {
+          "text": "income"
+        },
+        {
+          "text": "earn"
+        },
+        {
+          "text": "earnings"
+        },
+        {
+          "text": "networth"
+        },
+        {
+          "text": "net worth"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "How r u?"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "child",
+      "examples": [
+        {
+          "text": "number of children"
+        },
+        {
+          "text": "children"
+        },
+        {
+          "text": "child"
+        },
+        {
+          "text": "kids"
+        },
+        {
+          "text": "offsprings"
+        },
+        {
+          "text": "how many children does @sys-person have"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Country",
+      "examples": [
+        {
+          "text": "where was @sys-person born?"
+        },
+        {
+          "text": "tell me the birth place of @sys-person"
+        },
+        {
+          "text": "where is @sys-person from?"
+        },
+        {
+          "text": "where is she from?"
+        },
+        {
+          "text": "where is he from?"
+        },
+        {
+          "text": "tell me where she was born"
+        },
+        {
+          "text": "nationality"
+        },
+        {
+          "text": "tell me where he was born"
+        },
+        {
+          "text": "place"
+        },
+        {
+          "text": "city"
+        },
+        {
+          "text": "hometown"
+        },
+        {
+          "text": "home town"
+        },
+        {
+          "text": "tell me where @sys-person was born"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-location",
+      "values": []
+    },
+    {
+      "entity": "sys-person",
+      "values": []
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-07-10"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "[networth]"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1542543234219",
+      "metadata": {},
+      "conditions": "#networth",
+      "dialog_node": "node_5_1542543234244",
+      "previous_sibling": "node_3_1542543234244"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Who's Net Worth would you like to know about?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1542543234219",
+      "metadata": {},
+      "conditions": "#networth && !$name",
+      "dialog_node": "node_3_1542543234244",
+      "previous_sibling": "node_2_1542543234244"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Please specify the name and the attribute of the person who'd like to know about. example: What's Donald Trump's birth date or where did Barak obama graduate from?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1542543234219",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_6_1542543234244",
+      "previous_sibling": "node_5_1542543234244"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "[networth]"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1542543234219",
+      "context": {
+        "name": "@sys-person"
+      },
+      "metadata": {},
+      "conditions": "#networth && @sys-person",
+      "dialog_node": "node_2_1542543234244"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "[country]"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1542380059316",
+      "metadata": {},
+      "conditions": "#Country",
+      "dialog_node": "node_5_1542380059335",
+      "previous_sibling": "node_3_1542380059335"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Please specify the name and the attribute of the person who'd like to know about. example: What's Donald Trump's birth date or where did Barak obama graduate from?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1542380059316",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_6_1542380059335",
+      "previous_sibling": "node_5_1542380059335"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Who's birth place would you like to know about?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1542380059316",
+      "metadata": {},
+      "conditions": "#Country && !$name",
+      "dialog_node": "node_3_1542380059335",
+      "previous_sibling": "node_2_1542380059335"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "[country]"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1542380059316",
+      "context": {
+        "name": "@sys-person"
+      },
+      "metadata": {},
+      "conditions": "#Country && @sys-person",
+      "dialog_node": "node_2_1542380059335"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "[birth]"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1542310811516",
+      "metadata": {},
+      "conditions": "#Age",
+      "dialog_node": "node_1_1542311296408",
+      "previous_sibling": "node_5_1542310925653"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Who's birth date would you like to know?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1542310811516",
+      "metadata": {},
+      "conditions": "#Age && !$name",
+      "dialog_node": "node_5_1542310925653",
+      "previous_sibling": "node_4_1542310885731"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Please specify the name and the attribute of the person who'd like to know about. example: What's Donald Trump's birth date or where did Barak obama graduate from?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1542310811516",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_6_1542310977602",
+      "previous_sibling": "node_1_1542311296408"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "[birth]"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1542310811516",
+      "context": {
+        "name": "@sys-person"
+      },
+      "metadata": {},
+      "conditions": "#Age && @sys-person",
+      "dialog_node": "node_4_1542310885731"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "[birth]"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_5_1542310925653",
+      "context": {
+        "name": "@sys-person"
+      },
+      "metadata": {},
+      "conditions": "@sys-person",
+      "dialog_node": "node_2_1542311732188"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Who's marital status would you like to know about?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1542499518357",
+      "metadata": {},
+      "conditions": "#spouse && !$name",
+      "dialog_node": "node_3_1542499518382",
+      "previous_sibling": "node_2_1542499518382"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "[spouse]"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1542499518357",
+      "metadata": {},
+      "conditions": "#spouse",
+      "dialog_node": "node_5_1542499518382",
+      "previous_sibling": "node_3_1542499518382"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Please specify the name and the attribute of the person who'd like to know about. example: What's Donald Trump's birth date or where did Barak obama graduate from?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1542499518357",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_6_1542499518382",
+      "previous_sibling": "node_5_1542499518382"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "[spouse]"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1542499518357",
+      "context": {
+        "name": "@sys-person"
+      },
+      "metadata": {},
+      "conditions": "#spouse && @sys-person",
+      "dialog_node": "node_2_1542499518382"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "[networth]"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1542543234244",
+      "context": {
+        "name": "@sys-person"
+      },
+      "metadata": {},
+      "conditions": "@sys-person",
+      "dialog_node": "node_4_1542543234244"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "[child]"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1542551688395",
+      "metadata": {},
+      "conditions": "#child",
+      "dialog_node": "node_5_1542551688415",
+      "previous_sibling": "node_3_1542551688415"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Please specify the name and the attribute of the person who'd like to know about. example: What's Donald Trump's birth date or where did Barak obama graduate from?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1542551688395",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_6_1542551688415",
+      "previous_sibling": "node_5_1542551688415"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Who's children's names would you like to know about?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1542551688395",
+      "metadata": {},
+      "conditions": "#child && !$name",
+      "dialog_node": "node_3_1542551688415",
+      "previous_sibling": "node_2_1542551688415"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "[child]"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1542551688395",
+      "context": {
+        "name": "@sys-person"
+      },
+      "metadata": {},
+      "conditions": "#child && @sys-person",
+      "dialog_node": "node_2_1542551688415"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "[child]"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1542551688415",
+      "context": {
+        "name": "@sys-person"
+      },
+      "metadata": {},
+      "conditions": "@sys-person",
+      "dialog_node": "node_4_1542551688415"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "[education]"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_5_1542311860448",
+      "context": {
+        "name": "@sys-person"
+      },
+      "metadata": {},
+      "conditions": "@sys-person",
+      "dialog_node": "node_6_1542311860448"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Who's description would you like to view?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1542491016552",
+      "metadata": {},
+      "conditions": "#description && !$name",
+      "dialog_node": "node_3_1542491016566",
+      "previous_sibling": "node_2_1542491016566"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Please specify the name and the attribute of the person who'd like to know about. example: What's Donald Trump's birth date or where did Barak obama graduate from?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1542491016552",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_6_1542491016566",
+      "previous_sibling": "node_5_1542491016566"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "[description]"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1542491016552",
+      "metadata": {},
+      "conditions": "#description",
+      "dialog_node": "node_5_1542491016566",
+      "previous_sibling": "node_3_1542491016566"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "[description]"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1542491016552",
+      "context": {
+        "name": "@sys-person"
+      },
+      "metadata": {},
+      "conditions": "#description && @sys-person",
+      "dialog_node": "node_2_1542491016566"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "[party]"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1542501342663",
+      "metadata": {},
+      "conditions": "#party",
+      "dialog_node": "node_11_1542501342680",
+      "previous_sibling": "node_9_1542501342680"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Who's political party details would you like to know about?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1542501342663",
+      "metadata": {},
+      "conditions": "#party && !$name",
+      "dialog_node": "node_9_1542501342680",
+      "previous_sibling": "node_8_1542501342680"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Please specify the name and the attribute of the person who'd like to know about. example: What's Donald Trump's birth date or where did Barak obama graduate from?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1542501342663",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_12_1542501342680",
+      "previous_sibling": "node_11_1542501342680"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "[party]"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1542501342663",
+      "context": {
+        "name": "@sys-person"
+      },
+      "metadata": {},
+      "conditions": "#party && @sys-person",
+      "dialog_node": "node_8_1542501342680"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "[education]"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1542311860430",
+      "metadata": {},
+      "conditions": "#education",
+      "dialog_node": "node_7_1542311860448",
+      "previous_sibling": "node_5_1542311860448"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Who's graduation details would you like to know about?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1542311860430",
+      "metadata": {},
+      "conditions": "#education && !$name",
+      "dialog_node": "node_5_1542311860448",
+      "previous_sibling": "node_4_1542311860448"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Please specify the name and the attribute of the person who'd like to know about. example: What's Donald Trump's birth date or where did Barak obama graduate from?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1542311860430",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_8_1542311860448",
+      "previous_sibling": "node_7_1542311860448"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "[education]"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1542311860430",
+      "context": {
+        "name": "@sys-person"
+      },
+      "metadata": {},
+      "conditions": "#education && @sys-person",
+      "dialog_node": "node_4_1542311860448"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "[party]"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1542501342680",
+      "context": {
+        "name": "@sys-person"
+      },
+      "metadata": {},
+      "conditions": "@sys-person",
+      "dialog_node": "node_10_1542501342680"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "[country]"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1542380059335",
+      "context": {
+        "name": "@sys-person"
+      },
+      "metadata": {},
+      "conditions": "@sys-person",
+      "dialog_node": "node_4_1542380059335"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "[spouse]"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1542499518382",
+      "context": {
+        "name": "@sys-person"
+      },
+      "metadata": {},
+      "conditions": "@sys-person",
+      "dialog_node": "node_4_1542499518382"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "[description]"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1542491016566",
+      "context": {
+        "name": "@sys-person"
+      },
+      "metadata": {},
+      "conditions": "@sys-person",
+      "dialog_node": "node_4_1542491016566"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#Country",
+      "dialog_node": "node_1_1542380059316",
+      "previous_sibling": "node_1_1542543234219"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "I hope I was able to help you! Have a nice day! "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#General_Ending",
+      "dialog_node": "node_3_1542118099861",
+      "previous_sibling": "node_1_1542380059316"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#child",
+      "dialog_node": "node_1_1542551688395",
+      "previous_sibling": "node_2_1542310811516"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Hello there! How can i help you?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_2_1542117933682",
+      "previous_sibling": "node_7_1542119401608"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#description",
+      "dialog_node": "node_1_1542491016552",
+      "previous_sibling": "node_1_1542499518357"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#party",
+      "dialog_node": "node_7_1542501342663",
+      "previous_sibling": "node_1_1542551688395"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "What would you like to know about $name?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {
+        "name": "@sys-person"
+      },
+      "metadata": {},
+      "conditions": "@sys-person && !#education && !#Age && !#description && !#Country && !#spouse && !#party && !#networth && !#child",
+      "dialog_node": "node_1_1542315755096",
+      "previous_sibling": "node_2_1542117933682"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#education",
+      "dialog_node": "node_3_1542311860430",
+      "previous_sibling": "node_1_1542491016552"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#spouse",
+      "dialog_node": "node_1_1542499518357",
+      "previous_sibling": "node_7_1542501342663"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#networth",
+      "dialog_node": "node_1_1542543234219",
+      "previous_sibling": "node_3_1542311860430"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#Age",
+      "dialog_node": "node_2_1542310811516",
+      "previous_sibling": "node_1_1542315755096"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Welcome to my information dialogue. You can ask about any politician, president or billionaire! "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "dialog_node": "node_7_1542119401608"
+    }
+  ],
+  "workspace_id": "9f9d1612-6096-4b97-a350-27dd7833d6b0",
+  "counterexamples": [
+    {
+      "text": "sarah"
+    }
+  ],
+  "learning_opt_out": false,
+  "status": "Available"
+}

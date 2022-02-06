@@ -1,0 +1,16 @@
+{
+  "name": "semantic_assignment_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "semantic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dbpedia-sparql-client": "^0.9.8",
+    "prompt-sync": "^4.1.6",
+    "watson-developer-cloud": "^3.13.0"
+  }
+}
